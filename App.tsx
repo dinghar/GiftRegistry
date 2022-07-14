@@ -6,7 +6,7 @@ import { WishList } from './components/wishList/WishList';
 export default function App() {
   return (
     <>
-    <Header/>
+    <Header />
     <ViewContainer>
       <ContentContainer>
         <WishList/>
