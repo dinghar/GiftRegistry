@@ -1,15 +1,15 @@
 import { Button, Text, TextInput } from "react-native";
 import { styles } from "./styles";
 
-export function LoginForm() {
+export function SignUpForm() {
   return (
     <>
-      <Text>Login</Text>
+      <Text>Sign Up</Text>
       <Text>Email</Text>
       <TextInput style={styles.input}></TextInput>
       <Text>Password</Text>
       <TextInput style={styles.input}></TextInput>
-      <Button title="Log In" />
+      <Button title="Sign Up" />
     </>
   );
 }
